@@ -1,0 +1,17 @@
+body {
+    font-size: .9rem;
+    font-family: Roboto,arial,sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header div {
+    margin: 1rem;
+}
+
+header div span {
+    padding: 0 1rem;
+}
