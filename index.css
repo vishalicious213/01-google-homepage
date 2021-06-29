@@ -25,3 +25,8 @@ header div span {
 #user {
     border-radius: 50%;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+}
