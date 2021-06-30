@@ -50,3 +50,20 @@ input {
     border-radius: 1rem;
     border: 1px solid #dfe1e5;
 }
+
+button {
+    color: #3c4043;
+    background: #f8f9fa;
+    border: none;
+    border-radius: 4px;
+    font-family: Roboto,arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
