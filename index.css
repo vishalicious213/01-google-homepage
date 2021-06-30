@@ -75,12 +75,27 @@ footer {
     bottom: 0px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     background: #f2f2f2;
     color: #3c4043;
+    padding: 1rem 0;
 }
 
 #bottom {
-    width: 100%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.left {
+    margin-left: .9rem;
+}
+
+.right {
+    margin-right: .9rem;
+}
+
+#leaf {
+    width: .8rem;
 }
