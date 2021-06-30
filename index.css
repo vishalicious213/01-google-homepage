@@ -32,6 +32,10 @@ main {
     align-items: center;
 }
 
+#logo {
+    margin-bottom: 1rem;
+}
+
 form {
     width: 100%;
     display: flex;
@@ -41,5 +45,8 @@ form {
 
 input {
     width: 50%;
+    height: 2rem;
     margin-bottom: 1rem;
+    border-radius: 1rem;
+    border: 1px solid #dfe1e5;
 }
