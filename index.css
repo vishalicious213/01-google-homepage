@@ -44,12 +44,23 @@ form {
     align-items: center;
 }
 
-input {
+#search {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #dfe1e5;
     width: 50%;
     height: 2rem;
     margin-bottom: 1rem;
     border-radius: 1rem;
-    border: 1px solid #dfe1e5;
+}
+
+input {
+    border: none;
+    width: 86%;
+}
+
+input:focus {
+    outline: none;
 }
 
 button {
