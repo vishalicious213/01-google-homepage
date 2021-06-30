@@ -1,6 +1,7 @@
 body {
     font-size: .9rem;
     font-family: Roboto,arial,sans-serif;
+    box-sizing: border-box;
 }
 
 header {
@@ -66,4 +67,20 @@ button {
     text-align: center;
     cursor: pointer;
     user-select: none;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    background: #f2f2f2;
+    color: #3c4043;
+}
+
+#bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
